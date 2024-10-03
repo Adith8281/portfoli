@@ -1,1 +1,61 @@
+.container1{
+    background-image: url('blue-zoom-background-of-a-cartoom-smiling-face.webp');
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.container2{
+    background-image: url('0130936b2eea1b178b041251c974c013.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.container3{
+    background-image: url('pngtree-3d-rendered-image-illustrating-the-concept-of-coding-and-programming-picture-image_7283662.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.container4{
+    background-image: url('lovepik-blue-network-cloud-service-background-image_500591774.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.container5{
+    background-image: url('360_F_530960431_c8fPd3HansYvrSJ4fJxZqp9OhjQmYoll.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.footer{
+    background-image: url('72c938ba19bd22ccbb5d60c151414c2d.jpg');
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
 
