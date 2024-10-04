@@ -62,5 +62,18 @@
     background: rgb(0,198,255);
 background: linear-gradient(90deg, rgba(0,198,255,1) 12%, rgba(0,33,36,1) 52%, rgba(40,118,121,1) 82%);
 }
+.moving-text {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: move 10s linear infinite; 
+}
 
-
+@keyframes move {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
