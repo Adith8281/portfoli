@@ -18,35 +18,48 @@
             justify-content: center; 
             align-items: center; 
         }
+      
+    
         </style>
         
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">ADITH.K.K</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <nav class="navbar navbar-expand-lg navbar-light my-custom-navbar">
+        <img src="Untitled.jpeg" alt="Adith K.K" class="rounded-circle" width="50" height="50">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="collapse navbar-collapse" id="navbarNav"></div>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-toggle" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-toggle" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link text-toggle" href="#resume">Resume</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">TEC&knowledge</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+                        <li><a class="dropdown-item" href="https://www.w3schools.com/js/default.asp">JAVA SCRIPT</a></li>
+                        <li><a class="dropdown-item" href="https://www.w3schools.com/python/default.asp">PYTHON</a></li>
+                        <li><a class="dropdown-item" href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">BOOTSTRAP</a></li>
+                        <li><a class="dropdown-item" href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+                        
+                      
+                    </ul>
+                  </li>
+                <li class="nav-item"><a class="nav-link text-toggle" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-toggle" href="#contact">Contact</a></li></ul></div></nav>
+                
 
     
     <section id="home" class="text-center py-5">
         <div class="container">
-            
+            <img src="652ebf73fbd9a45bcec818b7_functional_programming_44edc8e7a1.avif" alt="Adith K.K" class="rounded-circle" width="200px" height="200px"><br><br>
             <h1>IM ADITH.K.K</h1>
-            <a href="https://www.instagram.com/__ad__ht._?igsh=MzAxZzBnbWJtY3kx" class="btn btn-primary stretched-link">Go instagram</a>
+            <a href="https://www.instagram.com/a._bord/profilecard/?igsh=eDN0a3gwdDE3NHdv" class="btn btn-primary square-button">
+                Go Instagram</a><br><br>
+            <button class="btn custom-btn" href="#home">home</button>
         </div>
     </section>
 
@@ -57,7 +70,8 @@
             <p>My name is adith.k.k<br>
                 im corrently working web design[front-end & back-end]<br>
                 graduate bsc computer science
-            </p>
+            </p><br><br>
+            <button class="btn custom-btn" href="about">about</button>
         </div>
     </section>
 
@@ -65,8 +79,9 @@
     <section id="resume" class="text-center py-5">
         <div class="container2">
             <h2>My Resume</h2>
+            <button class="btn custom-btn" href="resume">resume</button>
              <a href="https://github.com/Adith8281/files.git" class="bin bin-dark-streched-link"></a>
-             <button class="btn custom-btn">resume</button>
+             
 
         </div>
     </section>
@@ -75,6 +90,7 @@
     <section id="portfolio" class="text-center py-5 bg-light">
         <div class="container3">
             <h2>Technical knowledge</h2>
+            <button class="btn custom-btn" href="TEC&knowledge">TEC&knowdge</button>
             <p>+ HTML<br>
                +JAVA SCRIPT<br>
                +PYTHON<br>
@@ -85,9 +101,13 @@
     </section>
 
     
-    <section id="services" class="text-center py-5">
+    <section  class="text-center py-5">
         <div class="container4">
-            <h2>Services</h2>
+            <h2>Services</h2><br><br>
+            <a href="http://127.0.0.1:5502/portfoli.html" class="btn btn-primary">
+                services</a><br><br>
+            <button class="btn custom-btn" href="#services"></button><br>
+            
             <p>+web page design<br>
                +web developing<br>
                </p>
@@ -98,6 +118,7 @@
     <section id="contact" class="text-center py-5 bg-light">
         <div class="container5">
             <h2>Contact Details</h2>
+            <button class="btn custom-btn" href="contact">contact</button>
             <p>+DOB:02102003<br>
                +Gender:Male<br>
                +Marital Satus:Commited<br>
